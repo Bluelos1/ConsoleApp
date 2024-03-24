@@ -23,7 +23,6 @@ Table;ErrorLog;dbo;AdventureWorks2016_EXT;Database;NULL;
 Table;SpecialOffer_ondisk;Sales;AdventureWorks2016_EXT;DATABASE;NULL;
 Table;ProductListPriceHistory;Production;AdventureWorks2016_EXT;Database;;
 Table;Address;Person;AdventureWorks2016_EXT;DATABASE;NULL;
-database;AdventureWorks2016_EXT;;;;;
 Table;SpecialOfferProduct;Sales;AdventureWorks2016_EXT;Database; ;
 Table;ProductModel;Production;AdventureWorks2016_EXT;Database;NULL;
 Table;AddressType;Person;AdventureWorks2016_EXT;Database;NULL;
@@ -59,7 +58,6 @@ Table;WorkOrderRouting;Production;AdventureWorks2016_EXT;DATABASE;NULL;
 Table;Currency;Sales;AdventureWorks2016_EXT;Database;NULL;
 Table;PurchaseOrderHeader;Purchasing;AdventureWorks2016_EXT;Database;NULL;
 Table;CurrencyRate;Sales;AdventureWorks2016_EXT;Database;NULL;
-database;pubs;;;;;
 Table;Customer;Sales;AdventureWorks2016_EXT;Database;NULL;
 Table;SalesOrderDetail_ondisk;Sales;AdventureWorks2016_EXT;Database;NULL;
 Table;SalesOrder_json;Sales;AdventureWorks2016_EXT;Database;NULL;
@@ -84,9 +82,7 @@ Table;Illustration;Production;AdventureWorks2016_EXT;Database;NULL;
 Table;PhoneNumberType;Person;AdventureWorks2016_EXT;Database;NULL;
 Table;SpecialOffer_inmem;Sales;AdventureWorks2016_EXT;Database;NULL;
 Table;Employee_Temporal_History;HumanResources;AdventureWorks2016_EXT;DATABASE;NULL;
-
 Table;JobCandidate;HumanResources;AdventureWorks2016_EXT;Database;NULL;
-database;BaseballData;;;;;
 Table;Location;Production;AdventureWorks2016_EXT;Database;NULL;
 Table;TrackingEvent;Sales;AdventureWorks2016_EXT;Database;NULL;
 Table;OrderTracking;Sales;AdventureWorks2016_EXT;Database;NULL;
@@ -114,27 +110,12 @@ Table;pitching;dbo;BaseballData;Database;NULL;
 Table;els_teamnames;dbo;BaseballData;Database;NULL;
 Table;battingpost;dbo;BaseballData;Database;NULL;
 Table;pitchingpost;dbo;BaseballData;Database;NULL;
-database;WideWorldImporters;;;;;
 Table;fielding;dbo;BaseballData;Database;NULL;
 Table;schoolsplayers;dbo;BaseballData;Database;NULL;
 Table;schools;dbo;BaseballData;Database;NULL;
 Table;salaries;dbo;BaseballData;Database;NULL;
 Table;fieldingof;dbo;BaseballData;Database;NULL;
 Table;fieldingpost;dbo;BaseballData;Database;NULL;
-Table;Employees;dbo;Northwind;Database;;
-Table;Categories;dbo;Northwind;Database;;
-Table;Customers;dbo;Northwind;Database;;
-Table;Shippers;dbo;Northwind;Database;;
-Table;Suppliers;dbo;Northwind;Database;;
-Table;Orders;dbo;Northwind;Database;;
-Table;Products;dbo;Northwind;Database;;
-Table;Order Details;dbo;Northwind;Database;;
-Table;CustomerCustomerDemo;dbo;Northwind;Database;;
-Table;CustomerDemographics;dbo;Northwind;Database;;
-Table;Region;dbo;Northwind;Database;;
-Table;Territories;dbo;Northwind;Database;;
-Table;EmployeeTerritories;dbo;Northwind;Database;;
-Database;Northwind;;;;;
 column;Bonus;Sales;SalesPerson;TABLE;money;0
 column;BusinessEntityID;Sales;SalesPerson;TABLE;int;0
 column;CommissionPct;Sales;SalesPerson;TABLE;smallmoney;0
@@ -177,7 +158,6 @@ column;Title;Person;Person;TABLE;nvarchar;1
 column;ModifiedDate;Sales;SalesTaxRate;TABLE;datetime;0
 column;Name;Sales;SalesTaxRate;TABLE;Name: nvarchar;0
 column;rowguid;Sales;SalesTaxRate;table;uniqueidentifier;0
-
 column;SalesTaxRateID;Sales;SalesTaxRate;TABLE;int;0
 column;StateProvinceID;Sales;SalesTaxRate;TABLE;int;0
 column;TaxRate;Sales;SalesTaxRate;TABLE;smallmoney;0
@@ -206,7 +186,6 @@ column;BusinessEntityID;Person;PersonPhone;TABLE;int;0
 column;ModifiedDate;Person;PersonPhone;TABLE;datetime;0
 column;PhoneNumber;Person;PersonPhone;TABLE;Phone: nvarchar;0
 column;PhoneNumberTypeID;Person;PersonPhone;TABLE;int;0
-
 column;AdditionalContactInfo;HumanResources;vEmployee;TABLE;xml;1
 column;AddressLine1;HumanResources;vEmployee;table;nvarchar;0
 column;AddressLine2;HumanResources;vEmployee;table;nvarchar;1
@@ -274,7 +253,6 @@ column;MiddleName;Sales;vIndividualCustomer;TABLE;Name: nvarchar;1
 column;PhoneNumber;Sales;vIndividualCustomer;TABLE;Phone: nvarchar;1
 column;PhoneNumberType;Sales;vIndividualCustomer;TABLE;Name: nvarchar;1
 column;PostalCode;Sales;vIndividualCustomer;TABLE;nvarchar;0
-
 column;StateProvinceName;Sales;vIndividualCustomer;TABLE;Name: nvarchar;0
 column;Suffix;Sales;vIndividualCustomer;TABLE;nvarchar;1
 column;Title;Sales;vIndividualCustomer;TABLE;nvarchar;1
